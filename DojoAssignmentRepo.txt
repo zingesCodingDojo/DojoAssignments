@@ -1,0 +1,7 @@
+cd ~
+cd desktop/dojoassignments
+git init
+git remote add origin https://github.com/zingesCodingDojo/DojoAssignments
+git add .
+git commit -m “Initial commit of DojoAssignments”
+git push
