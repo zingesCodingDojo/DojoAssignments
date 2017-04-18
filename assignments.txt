@@ -1,0 +1,6 @@
+Tinas-MacBook-Air:DojoAssignments tinaxia$ ls -r assignments.txt
+assignments.txt
+Tinas-MacBook-Air:DojoAssignments tinaxia$ ls
+MEAN		Ruby		assignments.txt	netCore
+Python		WebFundamentals	iOS
+Tinas-MacBook-Air:DojoAssignments tinaxia$
