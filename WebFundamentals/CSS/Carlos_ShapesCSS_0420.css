@@ -1,0 +1,41 @@
+*{
+    background:black;
+    margin: 30px;
+}
+/*Shape holder!*/
+#master{
+    padding: 1px;
+    height: 900px;
+    /*background:linear-gradient(gray, black)*/
+    background: black
+}
+/*Making shapes!*/
+    .square{
+        width: 140px;
+        height: 140px;
+        background: blue;
+        display: block;
+    }
+    .circle{
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+        background: red;
+        display: block;
+    }
+    .triangle{
+        width: 0px;
+        height: 0px;
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+        border-bottom: 140px solid limegreen;
+        display: block;
+    }
+    .pacman{
+        width: 0;
+        height: 0;
+        border: 100px solid yellow;
+        border-right-color: rgba(1,1,1,0);
+        border-radius: 100px;
+        color: black;
+    }

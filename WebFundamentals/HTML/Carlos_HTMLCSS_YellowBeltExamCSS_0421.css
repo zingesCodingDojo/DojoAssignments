@@ -1,0 +1,204 @@
+*{
+    margin: 5px auto;
+    color: gray;
+    font-family: sans-serif;
+    color: #E1E1E1;
+}
+/*This is our master wrapper. It will host all of our content and additional bottom text.*/
+    #master{
+        background:#1A1A1A;
+        width: 1050px;
+        height: 1280px;
+        margin: 5px;
+    }
+        #master h6{
+            font-size: 10px;
+            float: right;
+            vertical-align: bottom;
+            color: #7B6E50;
+            padding-right: 35px;
+        }
+/*HEADER Elements*/
+        .top_title_header{
+            width: 1050px;
+            height: 100px;;
+            background: #1A1A1A;
+            /*padding: 5px;*/
+            
+        }
+            .top_title_header img{
+                width: 200;
+                height: 80px;
+            }
+            .top_title_header h3{
+                font-size: 20px;
+                color: gray;
+                float:right;
+                margin-top: 30px;
+                margin-right: 30px;
+                font-size: 18px;
+            }
+/*First top navigation elements*/
+/*This section has graphic borders at the end of each column and another at the right-most side.*/
+        .top_navigator{
+            height: 50px;
+            width: 1035px;
+            background: linear-gradient(#525252, #292929);
+            margin: -5px 5px 1px 5px;
+            font-size: 8px;
+        }
+            .left_navigation, .blog_navigation, .portfolio_navigation, .shortcodes_navigations, .features_navigation, .contact_navigations{
+                display: inline-block;
+                width: 60px;
+                padding: 2px 15px;
+                border-style: solid;
+                border-width: 0px 1px 0px 0px;
+                border-color: #515151;
+
+            }
+            .left_navigation, .blog_navigation{
+                padding-top: 5px;
+                width: 45px;
+            }
+            .portfolio_navigation, .shortcodes_navigations{
+                width: 90px;
+            }
+            .features_navigation{
+                width: 70px;
+            }
+            .header_right_border_box{
+                border-style: solid;
+                height: 40px;
+                border-width: 0px 1px 0px 0px;
+                border-color: #515151;
+                float:right;
+                margin-right: 50px;
+            }
+/*Giant picture of naping person*/
+/*This is a cycling image, but for now it only contains one person with a bottom border.*/
+        .center_giant_picures img{
+            border-color: #515151;
+            border-style:solid;
+            border-width: 0px 0px 4px 0px;
+            text-align: center;
+            margin: -5px 5px;
+            width: 1035px;
+            height: 400px;
+        }
+/*Columns of text below picture*/
+/*This can be seen as four columns with text and images.*/
+        .column_below_giant_pictures{
+            width: 985px;
+            height: 180px;
+            margin-top: -5px;
+        }
+        .column_below_giant_pictures img{
+            width: 50px;
+            height: 45px;
+            display: inline-block;
+            margin: 50px 0px;
+        }
+        .column_left_most, .column_left_center, .column_right_center, .column_right_most{
+            background: #1A1A1A;
+            display: inline-block;
+            width: 242px;
+            height: 180px;
+            
+        }
+            .column_below_giant_pictures h2{
+                display: inline-block;
+                font-size: 20px;
+                vertical-align: top;
+                margin-top: 47px;
+                color: #EC7605;
+            }
+            .column_below_giant_pictures p{
+                font-size: 13px;
+                vertical-align: top;
+                margin-top: -76px;
+                margin-left: 61px;
+            }
+/*This is the BUY now section*/
+/*This section has some wacky background.*/
+        .middle_bottom_info{
+            margin: 0px 8px 0px 7px;
+            width: 1035px;
+            height: 180px;
+            background: repeating-linear-gradient(135deg, rgba(10,10,10, .3), black 1px, transparent 2px, transparent 3px, rgba(10,10,10,.3) 2px);
+            }
+
+            .middle_bottom_info h1{
+                padding: 40px 0px 10px 30px;
+                font-size: 23px;
+                display: inline-block;
+                }
+
+            .middle_bottom_info p{
+                padding: 0px 0px 10px 30px;
+                width: 680px;
+                text-align: left;
+                display: inline-block;
+                font-size: 13px;
+                }
+
+            #buy_now{
+                font-size: 18px;
+                font-weight: 200;
+                color: white;
+                width: 130px;
+                height: 40px;
+                border-radius: 5px;
+                background: linear-gradient(#FF8931, #FF7C00);
+                border: 0px;
+                position: relative;
+                left: 80px;
+                bottom: 20px;
+                }
+
+/*This is the final website footer. It contains four columns*/
+        .bottom_portfolio_footer{
+            /*margin-left: 7px;*/
+            width: 1020px;
+            height: 330px;
+            background:#1A1A1A;
+            margin: 10px 0px 0px 30px;
+        }
+            .bottom_header_left, .bottom_portfolio_right{
+                width: 236px;
+                height: 300px;
+                display: inline-block;
+                vertical-align: top;
+                padding-left: 5px;
+                padding: 0px 0px 0px 10px;
+            }
+            .bottom_portfolio_center_left, .bottom_portfolio_center_right{
+                width: 236px;
+                height: 270px;
+                display: inline-block;
+                vertical-align: top;
+                padding: 30px 0px 0px 10px;
+            }
+            .bottom_portfolio_footer img{
+                margin: 10px 0px;
+                border-style: solid;
+                border-width: 4px;
+                border-color: #504F4F;
+            }
+
+            .bottom_portfolio_footer h4{
+                color: #F87100;
+                size: 14px;
+                
+            }
+            .bottom_portfolio_footer p{
+                font-size: 12px;
+                line-height: 22px;
+            }
+            .bottom_portfolio_footer h5{
+                font-size: 13px;
+                padding: 3px;
+                float: right;
+                color: #CB6B0F;
+                padding-right: 25px;
+            }
+            

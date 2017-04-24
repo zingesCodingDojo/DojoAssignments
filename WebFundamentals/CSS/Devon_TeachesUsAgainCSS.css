@@ -1,0 +1,13 @@
+#master{
+    background: green;
+    height: 500px;
+    width: 500px;
+    display: block;
+}
+    .first_blood{
+        width: 100px;
+        height: 100px;
+        background: black;
+        margin: 50%;
+        display: inline-block;
+    }

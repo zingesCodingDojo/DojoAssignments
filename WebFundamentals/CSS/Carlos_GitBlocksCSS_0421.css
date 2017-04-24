@@ -1,0 +1,86 @@
+*{
+    font-family: monospace;
+}
+/*MAIN WRAPPER*/
+    #master{
+        height: 1000px;
+        width: 930px;;
+        background: #DCE0D3;
+        padding: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+
+    /*TOP HEADER CONTENTS BELOW*/
+        .top_header{
+            background: #00B5AF;
+            width: 900px;
+            height: 50px;
+            padding: 15px;       
+        }
+            .top_header img{
+                width: 50px;
+                height: 50px;
+                display: inline-block;
+                margin-bottom: 0px;
+                padding-right: 5px;
+            }
+            .top_header h1{
+                display: inline-block;
+                font-stretch: condensed;
+            }
+            .top_header ul{
+                list-style: none;
+                display: inline-block;
+                margin-left: 110px;
+                text-align: center;
+            }
+            .top_header li{
+                padding: 10px;
+                display: inline-block;  
+                font-size: 13px;
+                text-align: center;
+                
+            }
+            a{
+                color: white;
+            }
+        /*MAIN BODY CONTENTS BELOW*/
+        .main_body{
+            background: #FCEA8B;
+            color: #DCE0D3;
+            display: inline-block;
+            padding: 10px;
+            margin: 10px 10px 10px 0px
+        }
+            .left_bar{
+                padding: 15px;
+                background: #004145;
+                width: 230px;
+                height: 450px;
+                display: inline-block;
+            }
+                .left_bar h2{
+                    margin: 0px 0px 15px -5px;
+                }
+                .left_bar p{
+                    margin-left:5px;
+                    margin-bottom: 20px;
+                }
+            .right_top_list{
+                background: #004145;
+                width: 600px;
+                height: 200px;
+                display: inline-block;
+            }
+            .git_init, .git_add, .git_status{
+                width: 160px;
+                height: 200px;
+                display: inline-block;
+                margin: 0px 10px;
+                vertical-align: top;
+            }
+            
+            
+            

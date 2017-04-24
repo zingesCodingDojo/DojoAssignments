@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#master{
+    width: 970px;
+    height: 1029px;
+    margin: 0px auto;
+    }
+    p{
+        color: black;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 15px;
+    }
+    #top_border{
+        background: rgb(231, 218, 232);
+        width: 100%;
+        height: 50px;
+        display: inline-block;
+        padding-bottom: 0px;
+        
+    }
+        .title_text h1{
+            display: inline-block;
+            margin-left: 1%;
+            padding-left: 10px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        .title_text h2{
+            display: inline-block;
+            margin-right: 1%;
+            margin-left: 365px;
+            font-family: Arial;
+            font-size: 22px;
+        }
+    #top_mid{
+        background: radial-gradient(circle, #6F5964, #56424B);
+        display: inline-block;
+        height: 900px;
+        width: 100%;
+    }
+        .top_image_about img{
+            height: 250px;
+            width: 380px;
+            margin: 20px;
+            border: gray;
+            border-style: solid;
+            border-width: 5px;
+        }
+        .about{
+            display: inline-block;
+            vertical-align: top;
+            height: 260px;
+            width: 514px;
+            margin-top: 20px;
+            background: rgb(251, 218, 232)
+        }
+        .about_text2{
+            height: 40px;
+            background: linear-gradient(lavender, #888694, lavender)
+        }
+        .about_text2 h2{
+            display: inline-block;
+            padding: 8px 5px;
+            color: #EEE9EF;
+            font-family: Arial;
+        }
+        .about_text2 p{
+            padding: 2px 2px 5px 10px;
+            margin-top: 5px;
+        }
+    #bottom_images_group{
+        display: inline-block;
+        height: 596px;
+        width: 950px;
+        padding: 0px 0px 0px 10px;
+    }
+        #bottom_image_group, .bottom_box_left, .bottom_box_center, .bottom_box_right{
+            background: rgb(251, 218, 232);
+            width: 293px;
+            height: 580px;
+            display: inline-block;
+            margin: 0px 10px 0px 10px;
+            color: #EEE9EF;
+            vertical-align: top;
+        }
+        .bottom_box_left_secondary{
+            background: linear-gradient(lavender, #888694, lavender);
+            height: 40px;
+            margin: 0px -5px -5px -px;
+            padding: -25px;
+            color: #EEE9EF;
+        }
+            .bottom_box_left h3{
+                padding: 12px 0px 10px 10px;
+            }
+            .bottom_box_left p{
+                padding: 8px 7px 0px 7px;
+                font-size: 14px;
+            }
+            .bottom_box_left img{
+                width: 292px;
+                height: 170px;
+                margin-top: -6px;
+                vertical-align: top;
+            }
+        .bottom_box_left_bottom h4{
+            margin-top: 330px;
+            color: #EEE9EF;
+            padding: 10px;
+            font-size: 18px;
+            background: linear-gradient(lavender, #888694, lavender);
+        }
+        .bottom_box_left_bottom li{
+            display: inline-block;
+            padding: 13px 5px 5px 5px;
+        }
+        .bottom_box_left_bottom li img{
+            width: 40px;
+            height: 40px;
+        }
+        .bottom_box_icon_graphics{
+            margin-left: 10px;
+        }
+        .button_class_left{
+            margin: 5px 0px 0px 100px;
+            display: inline-block;
+        }
+        .button_class_left button{
+            background-color:#407D61;
+            color:white;
+            padding: 5px 8px;
+            font-size: 14px;
+            border-radius: 8px;
+            margin-top: 5px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            border: 1px solid black;
+        }
+        .secondary_list li{
+            display: inline-block;
+        }
+        .secondary_list li img{
+            width: 40px;
+            height: 40px;
+        }
+        .bottom_box_center_secondary{
+            background: linear-gradient(lavender, #888694, lavender);
+            height: 40px;
+
+        }
+            .bottom_box_center h3{
+                padding: 12px 0px 10px 10px;
+            }
+            .bottom_box_center p{
+                padding: 8px 7px 0px 7px;
+                font-size: 13px;
+            }
+            .bottom_box_center img{
+                width: 292px;
+                height: 170px;
+                margin-top: -6px;
+                vertical-align: top;
+            }
+            .button_class_center{
+                margin: 5px 0px 0px 80px;
+                display: inline-block;
+            }
+            .button_class_center button{
+                background-color:#407D61;
+                color:white;
+                padding: 5px 8px;
+                font-size: 14px;
+                border-radius: 8px;
+                margin-top: 5px;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                border: 1px solid black;
+            }
+        .bottom_box_right_secondary{
+            background: linear-gradient(lavender, #888694, lavender);
+            height: 40px;
+            margin: 0px -5px -5px -px;
+            padding: -25px;
+        }
+            .bottom_box_right h3{
+                padding: 12px 0px 10px 10px;
+            }
+            .bottom_box_right p{
+                padding: 8px 7px 0px 7px;
+                font-size: 13px;
+            }
+            .bottom_box_right img{
+                width: 292px;
+                height: 170px;
+                margin-top: -6px;
+                vertical-align: top;
+            }
+            .button_class_right{
+                margin: 5px 0px 0px 100px;
+                display: inline-block;
+            }
+            .button_class_right button{
+                background-color:#407D61;
+                color:white;
+                padding: 5px 10px;
+                font-size: 14px;
+                border-radius: 8px;
+                margin-top: 5px;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                border: 1px solid black;
+            }
+        #bott_border{
+            text-align: center;
+            color: black;
+            background:rgb(231, 218, 232);
+            width: 100%;
+            height: 60px;
+            padding: 5px;
+        }
+            .fotter_text p{
+                font-style: italic;
+            }
+            #unique{
+                margin-top: 5px;
+                font-style: normal;
+                margin-bottom: -5px;
+            }
+            .fotter_text img{
+                height: 20px;
+                width: 20px;
+            }

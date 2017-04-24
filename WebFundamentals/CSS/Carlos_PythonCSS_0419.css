@@ -1,0 +1,212 @@
+#master{
+    width: 970px;
+    height: 880px;
+    margin: 0px auto;
+    background-color: #174F78;
+    
+    
+}
+    .top_page_header{
+        /*background:red;*/
+        width: 100%;
+        }
+        .top_page_header img{
+            width: 323px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            }
+        .top_page_rightside{
+            width: 324px;
+            height: 100px;
+            margin: 10px 10px 10px 289px;
+            /*background: white;*/
+            display: inline-block;
+            vertical-align: top;
+        }
+            .top_page_rightside p{
+                margin:0px;
+                text-align: center;
+                font-family: Arial;
+                font-size: 14px;
+                margin-left: 60px;
+            }
+            .top_page_button_holder{
+                margin: 0px;
+                background: #444444;
+                height: 65px;
+                margin-top:3px;
+                border-radius: 20px;
+                box-shadow: 4px 4px 5px #282828;
+            }
+            #top_page_search{
+                text-align: center;
+                height: 30px;
+                width: 175px;
+                margin: 0px 5px 25px 50px;
+                color: #CECECE;
+                font-size: 13px;
+            }
+            #go_button{
+                text-align: center;
+                height: 35px;
+                width: 45px;
+                margin: 15px 0px 25px 0px;
+                border-radius: 5px;
+                background: #174F78;
+                /*font-weight: bold;*/
+                color: #BECDD8;
+                font-size:14px;
+            }
+        .about_downloads_documentation{
+            width: 850px;
+            height: 50px;
+            background: linear-gradient(#2072AF, #397CAF, #2072AF);
+            display: inline-block;
+            margin: 0px 40px 0px 80px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 5px #282828;
+        }
+        .about_downloads_documentation ul{
+            display: inline-block;
+            margin-left: -5px;
+        }
+        .about_downloads_documentation ul li{
+            display: inline-block;
+            font-size: 23px;
+            color: #F7F9FC;
+            margin: -5px 0px 10px -4px;
+            padding: 0px 17px;
+            vertical-align: top;
+            font-family: sans-serif;
+            }
+        .top_mid_content{
+            /*background:pink;*/
+            width: 969px;
+            height: 320px;
+            margin-bottom: 3px;
+            box-shadow: 0px 4px 5px #282828;
+        }
+        .divider1{
+            height: 4px;
+            width: 360px;
+            background: navy;
+            display: inline-block;
+            
+        }
+        .divider{
+            height: 4px;
+            width: 360px;
+            background: navy;
+            display: inline-block;
+            margin-top: 8px;
+        }
+        .divider h3{
+            margin: 7px;
+        }
+            .top_mid_left{
+                width: 200px;
+                margin-left: 50px;
+                margin-right: 50px;
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .top_mid_left ul{
+                /*background: turquoise;*/
+                text-align: center;
+                font-size: 18px;
+            }
+
+            a{
+                color: #C9D6DF;
+            }
+            
+            .top_mid_left li{
+                padding: 3px 3px 10px 3px;
+                list-style-type: none;
+            }
+            .top_mid_right{
+                width: 638px;
+                height: 100%;
+                text-align: center;
+                display: inline-block;
+                }
+            .top_mid_right p{
+                color: #F7F9FC;
+                font-size: 15px;
+                font-family: sans-serif;
+            }
+            .top_mid_right h3{
+                color: #D0BB1F;
+                font-weight: lighter;
+                font-style: italic;
+                line-height: 70%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #masterh3{
+                color: #FEFEFE;
+                font-style: normal;
+                font-size: 15px;
+            }
+        .center_middle{
+            background: white;
+            width: 970px;
+            height: 300px;
+            display: inline-block;
+            text-align: center;
+        }
+            .center_left_middle{
+                width: 300px;
+                height: 100%;
+                display: inline-block;
+                margin-right: 55px;
+                vertical-align:top;
+            }
+            .center_middle ul{
+                /*list-style: none;*/
+                list-style-type: square;
+                margin: -13px;
+            }
+            /*.center_middle li::before{
+                text-align: normal;;
+                content: "■"; 
+                color: black;
+                position: relative;
+                left: -12%;*/
+                
+            }
+            .center_middle li{
+                padding-left: 1em; 
+                text-indent: -10px;
+                list-style-position: inside;
+                text-align: center;
+                color: #7BB0DB;
+            }
+            .center_right_middle, .center_left_middle h3{
+                padding: 0px 10px 0px 0px;
+                margin: 2px;
+            }
+            .center_right_middle{
+                vertical-align: top;
+                margin-left:50px;
+                width: 300px;
+                height: 200px;
+                display: inline-block;
+            }
+        #bottom_bottom_stuff{
+            text-align: center;
+            background: linear-gradient(#164F78, #1F6DA8)
+        }
+        #bottom_bottom_stuff p{
+                width: 200px;
+                margin-top: 40px;
+                margin-left: 48px;
+                font-size: 18px;
+                display: inline-block;
+                list-style-type: none;
+        }
+        #bottom_bottom_stuff h6{
+            font-size: 10px;
+            margin: -5px;
+        }
