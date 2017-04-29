@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carlos Attempts the jQuery Functions assignment!</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("p").hide(function(){})
+                $(".annoyUser").hide(function(){})
+                $("h1").click(function(){
+                    alert("It was all a trick!");
+                    $("p").show();
+                    $("h1").text("I do not know what to do anymore.");
+                    
+                })
+                $("h2").click(function(){
+                    var whatisParagraph = $("p").val(function(){});
+                    console.log(whatisParagraph)
+                    $("#appendToMe").html(whatisParagraph)
+                })
+                $("#bad_click").click(function(){
+                    $("#bad_click").fadeOut();
+                    $(".annoyUser").show();
+                })
+                $(".annoyUser").click(function(){
+                    $(".annoyUser").html("<h1>Nothing to do now!<br>DO NOT CLICK.</h1>");
+                    var appendAnnoy = $(".annoyUser").click(function(){
+                        $(".annoyUser").append("We said do not click!<br>");
+                    })
+                })
+
+                $("#GimmeBack").click(function(){
+                    $("h1").show();
+                    $("h2").show();
+                    $("button").show();
+                    $
+
+                })
+
+
+
+
+
+
+
+
+
+
+            })
+        </script>
+    </head>
+    <body>
+        <h1>Click me to view the secrete content.</h1>
+        <p>Hello stranger. I am going to write some random text to try and cover much room and space on this website... maybe it would help if we had some direction. But since we do not, let us just type and type.
+            <br>
+            But, as we type, we need line breaks.<br>
+            Maybe we should throw in some more random words.
+        </p>
+        <p>More random texting to demonstrate hiding/showing of "p" elements!</p>
+        <p>Why not one more line?</p>
+        <div class="annoyUser">
+            <input type="text" value="muahahahahha">
+            <input type="text" value="muahahahahha">
+            <input type="text" value="muahahahahha">
+            <input type="text" value="muahahahahha">
+            <input type="text" value="muahahahahha">
+            <input type="text" value="muahahahahha">
+            <input type="text" value="muahahahahha">
+        </div>
+        <input type="text" id="appendToMe" value="nothing to see.">
+        <h2 id="END">Click for magix</h2>
+        <button type="button" id="bad_click">Do not click.</button>
+        <button type="button" id="GimmeBack">Return to Normal</button>
+
+        
+    </body>
+</html>

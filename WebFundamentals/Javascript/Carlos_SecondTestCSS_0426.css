@@ -1,0 +1,127 @@
+#master{
+    width: 900px;
+    height: 1200px;
+    margin: 0px auto;
+    /*background: red;*/
+    color: white;
+    font-family: sans-serif;
+}
+
+    #header{
+        width: 900px;
+        height: 80px;
+        background:grey;
+    }
+        h1{
+            font-weight: 500;
+            float:left;
+            margin-left: 15px;
+        }
+        h4{
+            width: 100px;
+            height: 65px;
+            /*display: inline-block;*/
+            float: right;
+            margin-top: 40px;
+            margin-bottom: 0px;
+        }
+
+    
+    #center_image{
+        width: 880px;
+        height: 412px;
+        /*background:black;*/
+        margin: 0 auto;
+    }
+        #center_img img{
+            text-align: center;
+        }
+        #center_img img, h2{
+            display: inline-block;
+        }
+        
+
+    #bot_middle_section{
+        width: 900px;
+        height: 300px;
+    }
+        #bot_middle_section img{
+            display: inline-block;
+            margin: 5px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+        }
+        .serives, .projects, .clients{
+            display: inline-block;
+            width: 255px;
+            height: 250px;
+            margin: 15px;
+            background: blue;
+            vertical-align: top;
+            padding: 10px;
+        }
+        .projects{
+            margin: 15px 0px 0px 0px;
+        }
+        #bot_middle_section p{
+            font-size: 13px;
+            margin-bottom: 25px;
+        }
+        #bot_middle_section button{
+            width: 130px;
+            height: 55px;
+            border-radius: 15px;
+            border: none;
+            background: linear-gradient(skyblue, deepskyblue)
+        }
+
+        h2{
+            margin: 15px 0px 0px 0px;
+            vertical-align: top;
+        }
+    
+    #bot{
+        width: 900px;
+        height: 270px;
+    }
+        .left_side_bottom, .center_side_bottom, .rigth_side_bottom{
+            display: inline-block;
+            width: 255px;
+            height: 250px;
+            margin: 20px;
+            vertical-align: top;
+            color: black;
+        }
+        .left_side_bottom img{
+            width: 255px;
+        }
+        .center_side_bottom p{
+            margin: 50px 0px 0px 0px;
+            font-size: 13px;
+            color: black;
+        }
+        .box5{
+            text-align: center;
+            width:250px;
+            height: 100px;
+            background:green;
+        }
+        .box5 p{
+            margin-top: 10px;
+        }
+
+    #footer{
+        width: 900px;
+        height: 100px;
+        text-align: center;
+        background: gray;
+    }
+        #footer h5{
+            display: inline-block;
+            margin: 50px 10px 10px 10px;
+            font-size: 20px;
+            font-weight: 100;
+            
+
+        }

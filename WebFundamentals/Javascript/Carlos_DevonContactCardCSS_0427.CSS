@@ -1,0 +1,8 @@
+#theForm{
+    display: inline-block;
+    width: 300px;
+}
+#theForm label{
+    width:100px;
+    display: inline-block;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carlos attempts the Ninja to Cat assignment!</title>
+        <style>
+            #master{
+                width: 600px;
+                height: 400px;
+                background: plum;
+                margin: 5px auto;
+            }
+            #picture_holder{
+                width: 190px;
+                height: 320px;
+                background: aliceblue;
+                /*text-align: center;*/
+                margin: inherit;
+            }
+            img{
+                /*display: block;?*/
+                margin: 5px;
+            }
+            .superHidden{
+                visibility: hidden;
+                }
+            .superShower{
+                visibility: visible;
+            }
+
+        </style>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var catString0 = $("#C00").attr("src");
+                var catString1 = $("#C01").attr("src");
+                var catString2 = $("#C02").attr("src");
+                var catString3 = $("#C03").attr("src");
+                var catString4 = $("#C04").attr("src");
+                var arrayImgs = [catString0, catString1, catString2, catString3, catString4];
+                console.log(arrayImgs[0])
+                $("img").click(function(){
+                    var ninjaString = $(this).attr("data-alt-src");
+                    var catString = $(this).attr("src");
+                    var tempElement = document.getElementById(this);
+                    console.log(tempElement)
+                    if(catString != ninjaString){
+                        console.log("Okay, it seems I am NOT the ninja. I must be a cat.")
+                        $(this).addClass("superHidden");
+                        $(this).attr("src", $(this).attr("data-alt-src"));
+                        // $(this).removeAttr("src");
+                        $(this).removeClass("superHidden");
+                    }
+                    else{
+                        console.log("I am a Ninja! Let me change into a cat!")
+                        for(var items in arrayImgs){
+                            console.log($(this).attr("src").slice(-5))
+                            console.log(arrayImgs[items])
+                            if(arrayImgs[items].slice(-5) == $(this).attr("src").slice(-5)){
+                                console.log("Match!")
+                                $(this).addClass("superHidden");
+                                $(this).attr("src", arrayImgs[items]);
+                                $(this).removeClass("superHidden");
+                            }
+
+                        }
+                    }
+                    
+                });
+    
+            });
+            </script>
+    </head>
+    <body>
+        <div id="master">
+            <h1 style="text-align: center;">There is a Cat changing into a Ninja!!!</h1>
+            <div id="picture_holder">
+                <img id="C00" src="./Ninja_to_Cat/cat0.png" data-alt-src="./Ninja_to_Cat/ninja0.png">
+                <img id="C01" src="./Ninja_to_Cat/cat1.png" data-alt-src="./Ninja_to_Cat/ninja1.png">
+                <img id="C02"  src="./Ninja_to_Cat/cat2.png" data-alt-src="./Ninja_to_Cat/ninja2.png">
+                <img id="C03" src="./Ninja_to_Cat/cat3.png" data-alt-src="./Ninja_to_Cat/ninja3.png">
+                <img id="C04" src="./Ninja_to_Cat/cat4.png" data-alt-src="./Ninja_to_Cat/ninja4.png">
+        </div>
+    </body>
+</html>

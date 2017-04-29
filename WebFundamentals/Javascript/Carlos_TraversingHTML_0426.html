@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carlos performs some Traversing Examples!</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("h3, p").click(function(){
+                    // $(this).parent().append("<h2>Howdy Coding Dojo dweebs.</h2>");
+                    // $(this).siblings().hide(); //Can add an element inside the selector: .parent .children .siblings 
+                });
+                // $("#myDiv").children().css("background-color", "green");
+                // $("#myDiv").children("h3").css("background-color", "green");
+                $("button").click(function(){ // changes text!
+                    $(this).siblings().children().children().text("michael choi was here!")
+                });
+            });
+        </script>  
+    </head>
+    <body>
+        <div id="myDiv">
+            <button type="button">Click me for crazy things!</button>
+            <p>Here is a paragraph. It is a beautiful paragraph.</p>
+            <ul>
+                <li><h3>Michael Jordan</h3></li>
+                <li><h3>Tiger Woods</h3></li>
+            </ul>
+        </div>
+    </body>
+
+</html>
