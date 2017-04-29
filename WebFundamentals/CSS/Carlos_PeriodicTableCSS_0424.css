@@ -1,0 +1,161 @@
+#master{
+    width: 1675px;
+    height: 800px;
+    background: #EEEEEE;
+}
+#secret_agent{
+    margin-left: 10px;
+}
+
+p{
+    font-size: 10px;
+    margin: 0px;
+}
+h2{
+    font-size: 20px;
+    color: #1913A2;
+    margin: 6px 0px 3px 0px; 
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 2px 0px;
+}
+li{
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+/*Top header*/
+    .header{
+        width: 1650px;
+        color: red;
+    }
+    .header li{
+        display: inline-block; 
+        border-width: 0px; 
+        width: 78px; 
+    }
+
+/*Element UL is going to be... inline blocks!*/
+    .left_header, .blue_elements, .salmon_elements{
+        display: inline-block;
+        vertical-align: top;
+        height: 540px;
+        
+    }
+/*Left most header*/
+    .left_header li{
+        border-width: 0px;
+        height: 77px; 
+    }
+    .left_header ul{
+        display: inline-block;
+        margin: 0px 0px;
+        color: red;
+    }
+    .left_header, .blue_elements, .salmon_elements, .yellow_elements, li{
+        height: 70px;
+        margin: 1px 1px;
+    }
+
+/*Blue Elements*/
+    .blue_elements ul{
+        margin: 0px;
+        display: inline-block;
+        vertical-align: top;
+
+    }
+    .blue_elements li{
+        background: #689BFF;
+    }
+
+    .second_blue li{
+        margin-left: 0px;
+        background: #689BFF;
+
+    }
+    #ignore_me{
+        border-width: 1px;
+        border-color: #EEEEEE;
+        background:#EEEEEE;
+    }
+
+/*Salmon Elements*/
+    .salmon_elements{
+        width: 860px;
+        height: 303px;
+        margin-left: 5px;
+        margin-top: 216px;
+    }
+    .salmon_elements li{
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 0px;
+        background: salmon;
+    }
+
+/*Yellow Elements*/
+    .yellow_elements{
+        width: 550px;
+        height: 585px;
+        display: inline-block;
+        margin: 0px;
+    }
+    .yellow_elements li{
+        display: inline-block;
+        margin-left: 5x;
+        margin-right: 5px;
+        margin-top: 0px;
+        background: yellow;
+    }
+    #yellow_remover{
+        display: inline-block;
+    }
+    #yellow_remover1, #yellow_remover2, #yellow_remover3, #yellow_remover4, #yellow_remover5{
+        background: #EEEEEE;
+        border-color: #EEEEEE;
+        display: inline-block;
+    }
+/*Green Elements*/
+    .green_elements{
+        width: 1325px;
+        height: 200px;
+        margin: -58px 0px 0px 149px;
+    }
+    .green_elements li{
+        display: inline-block;
+        background: #1FCA21;
+        margin-left: 5x;
+        margin-right: 9px;
+        
+    }
+    .green_elements ul{
+        margin-left: 21px;
+        display: inline-block;
+        height: 150px;
+        width: 1210px;
+        
+    }
+    .red_titles{
+        display: inline-block;
+        height: 100px;
+        margin-bottom: 50px;
+        vertical-align: middle;
+    }
+    .red_titles, h4{
+        font-size: 10px;
+        color: red;
+    }
+    #spy{
+        margin-left: 9px;
+    }
+    #sixsevenMoves1, #sixsevenMoves2, #sixsevenMoves3, #sixsevenMoves4, #ninnineMoves1, #ninnineMoves2, #ninnineMoves3, #ninnineMoves4{
+        margin-left: -2px;
+        margin-right: 8px;
+    }

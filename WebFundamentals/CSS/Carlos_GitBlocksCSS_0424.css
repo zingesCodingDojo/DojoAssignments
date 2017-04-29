@@ -1,0 +1,112 @@
+#master{
+    font-family: monospace;
+    margin: 0px;
+    background: gray;
+    height: 790px;
+    width: 1000px;
+    color: white;
+    font-stretch: condensed;
+}
+/*Global settings for h1, h2, and p tags.*/
+    h1, h2, h3{
+         margin:10px;
+         display: inline-block;
+    }
+    p{
+        margin: 20px;
+    }
+    /*Header*/
+    .header{
+        width: 980px;
+        height: 80px;
+        background: #00B5AF;
+    }
+
+        .header, img, li{
+            display: inline-block;
+            margin: 10px;
+        }
+        img{
+            width: 50px;
+            height: auto;
+        }
+        .header h1{
+            color: black;
+            vertical-align: top;
+            margin-top: 25px;
+        }
+        ul{
+            float: right;
+            margin: 5px;
+        }
+        li{
+            margin: 30px 10px 0px 0px;
+        }
+/*Main body! Yo*/
+    .main_body{
+        width: 980px;
+        height: 590px;
+        margin: 0px 10px 10px 10px;
+        background:#FCEA8B;
+    }
+    /*Left box*/
+    .left_box{
+        width: 250px;
+        height: 550px;
+        margin: 20px;
+        display: inline-block;
+        background: #004145;
+    }
+    /*Right-top box*/
+    .right_top_boxes{
+        display: inline-block;
+        width: 650px;
+        height: 179px;
+        vertical-align: top;
+        margin: 20px 0px 0px 0px;
+    }
+        .small_top_boxes{
+            width: 175px;
+            height: 179px;
+            background: #004145;
+            display: inherit;
+            vertical-align: top;
+        }
+        #top_mid_box{
+            margin:0 54px;
+        }
+    /*Center middle boxes*/
+    .center_boxes{
+        display: inline-block;
+        width: 650px;
+        height: 179px;
+        margin: 20px 0px;
+    }
+    .git_commit, .git_remote_add{
+        display: inline-block;
+        height: 179px;
+        width: 300px;
+        background: #004145;
+    }
+    .git_remote_add{
+        margin-left: 42px;
+    }
+    /*Center bottom boxes*/
+    .right_bottom_boxes{
+        width: 650px;
+        height: 150px;
+        background: #004145;
+        display: inline-block;
+    }
+    .footer{
+        width: 979px;
+        height: 75px;
+        /*text-align: center;*/
+        background: #00B5AF;
+        margin: 10px;
+    }
+    .footer p{
+        margin: 0px;
+        text-align: center;
+        padding: 28px 0px;
+    }
