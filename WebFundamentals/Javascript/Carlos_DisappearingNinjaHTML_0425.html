@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carlos attempts the Disappearing Ninja Assignment!</title>
+        <link rel="stylesheet" href="Carlos_DisappearingNinjaCSS_0425.css">
+        <style>
+            .superHidden{
+                visibility: hidden;
+                }
+            .superShower{
+                visibility: visible;
+            }
+        </style>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("img").click(function(){
+                    // $(this).fadeOut(1500);
+                    $(this).removeClass("superShower");
+                    $(this).addClass("superHidden");
+                    $("button").removeAttr("style");
+                    
+                });
+                
+                $("button").click(function(){
+                    $("img").removeClass("superHidden");
+                    $("img").addClass("superShower");
+                    // $("img").fadeIn(1500);
+                    $("button").css("background", "black");
+                })
+
+            })
+        </script>
+        
+    </head>
+    <body>
+        <div id="master">
+            <div id="header">
+                <h1>jQuery - assignment 1</h1>
+            </div>
+            <div id="imageHolder">
+                <img src="http://webneel.com/daily/sites/default/files/images/daily/02-2014/25-evil-cat-drawing.preview.jpg" alt="scary_cat.jpg">
+                <img src="https://imgs-tuts-dragoart-386112.c.cdn77.org/how-to-draw-pop-tart-cat-nyan-cat_1_000000008932_5.jpg" alt="nyan_cat.jpg">
+                <img src="http://ghk.h-cdn.co/assets/16/40/animal-planet-lion-dog-costume-bc-806293.jpg" alt="dog_lion.jpg">
+                <img src="http://666kb.com/i/by94oa13g945ngc5x.jpg" alt="dog_lantern.jpg">
+
+                <img src="http://4.bp.blogspot.com/-H6mcu-sqzdU/UTokYnDWVvI/AAAAAAAAEIM/s1QcviFN7Cs/s1600/yellow+seated.png" alt="coder_yellowbelt.png">
+                <img src="http://www.maymillerricci.com/assets/black-00f3e8db017a9d3121ef692a29493fef6846595ac4d84d3ac3497e8726f66c17.png" alt="black_belt.png">
+                <img src="http://alphabrainsz.net/wp-content/uploads/2016/11/unbelievable-cute-baby-animal-coloring-pages-with-coloring-pages-of-cute-animals-and-printable-coloring-pages-of-cute-baby-animals.gif" alt="ham_ham.png">
+                <img src="http://dl.stickershop.line.naver.jp/products/0/0/1/1224592/android/main.png" alt="mojiji_penguin.png">
+            </div>
+            <div id="footer">
+                
+                <button type="button">Restore</button>
+            </div>
+        
+        </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Carlos attempts the example under jQuery --> Basics, section.</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){ //SUPER IMPORTANT!!!!
+                
+                var dojo = ["dojo", "mountain view", "bootcamp"]
+                console.log(dojo); //Super important for leaving yourself message!
+
+                $("a").click(function(){
+                    alert("You are now leaving the page!");
+                })
+
+                // //affects methods they toggle the visibility property of items
+                //$("p").hide <--- would hide all p tags when the page loads!
+                $("#hide").click(function(){
+                    $("p").hide();
+                })
+                
+                $("#show").click(function(){
+                    $("p").show();
+                })
+
+                // //manipulation methods  add/text either text or html to your document
+                $("h3").hover(function(){
+                    $("h2").text("go see the Space Needle!");
+                }, function(){$("h2").text("Seattle, Washington")})//function(){alert("Now invoking the second function of this event!")})
+                
+                $(".append").click(function(){
+                    $(".result").append("<h4>.append adds HTML! </h4>");
+                })
+
+                // //css method
+                $("button").click(function(){
+                    $("button").css("background-color", "yellow")
+                })
+            });
+        </script>
+        <body>
+            <div class="result"></div> 
+
+            <p>This is a paragraph!!</p>
+
+            <p>This is also a paragraph!</p>
+            <button id="hide">This will hide all paragraphs!</button>
+            <button id="show">Click to show all paragraphs!</button>
+            <a id="mylink" href="http://www.google.com">go to Google!</a>
+            <h3>Montain View, California</h3>
+            <h2>Seattle, Washington</h2>
+            <button class="append">Click to see .append work!</button>
+            <!--The below is where in the page the .append would be placed! This can be moved anywhere! Even on-top (I also added it to the top.)-->
+            <div class="result"></div> 
+
+        </body>
+    </head>
+</html>

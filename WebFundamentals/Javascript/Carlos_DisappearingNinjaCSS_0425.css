@@ -1,0 +1,41 @@
+#master{
+    width: 950px;
+    height: 675px;
+    background: radial-gradient(wheat, lavender, lavenderblush);
+}
+    #header{
+        width: 950px;
+        height: 100px;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        margin: 17px;
+        
+    }
+    h1{
+        text-align: center;
+    }
+
+/*Center of the pageN*/
+    #imageHolder{
+        width: 950px;
+        height: 475px;
+    }
+
+/*Footer button and footer*/
+    #footer{
+        width: 950px;
+        height: 100px;
+    }
+    button{
+        background: goldenrod;
+        color: white;
+        width: 150px;
+        height: 50px;
+        margin: 2.5% 42.5%;
+        border-radius: 10px;
+        border-color: red;
+        box-shadow: 8px 7px 9px black;
+    }
+    

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carlos Attempts the jQuery Functions assignment!</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            .superModdedColors{
+                color:brown;
+                width: 400px;
+                height: 400px;
+                background: thistle;
+
+            }
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("p, .slidedown").hide(function(){});
+                $(".buttons_added").hide();
+                $("#intro_button").click(function(){
+                    $("#intro_button").hide(5000);
+                    $("p").show();
+                    $(".slidedown").hide();
+                });
+                $("p").click(function(){
+                    $(".buttons_added").toggle();
+                    // $("#intro_button").show();
+                    $("#intro_button").toggle();
+                });
+                $("h4").click(function(){
+                    $(".slidedown").slideDown(1000);
+                });
+                $("h5").click(function(){
+                    $(".slideUp").slideUp(1000);
+                });
+                $("h6").click(function(){
+                    $(".slidedown, .slideUp").slideToggle(1000);
+                });
+                
+                $(".fadeInButton").click(function(){
+                    $(".fadeInButton p, .fadeOutButton p").fadeIn();
+                })
+                $(".fadeOutButton").click(function(){
+                    $(".fadeInButton p, .fadeOutButton p").fadeOut();
+                });
+                $("p").addClass("superModdedColors");
+
+                $("#addingClasses").click(function(){
+                    $("p").removeClass("superModdedColors");
+                });
+
+                $(".before").click(function(){
+                    $(".before").before("<br>Much before! Wow.");
+                })
+                $(".after").click(function(){
+                    $(".after").after("<br>What happened? This is AFTER?!");
+                })
+
+                $(".append").click(function(){
+                    $("p").append(" Everything is getting text!");
+                })
+
+                $("#master").click(function(){
+                    $("p").html("Wow, so empty now.");
+                })
+                $(".atrr").click(function(){
+                    var getH5Style = $("h5").attr("style");
+                    console.log(getH5Style);
+                })
+                $("#superValues").click(function(){
+                    var getFadeOutpTag = $("input").val();
+                    console.log(getFadeOutpTag);
+                    $("p").text(getFadeOutpTag)
+                })
+                $("#SOMETEXT").click(function(){
+                    console.log($("#SOMETEXT").data())
+                })
+                console.log($("p").data(".slidedown", 555))
+
+            })
+
+        </script>
+    </head>
+    <body>
+        <button type="button" id="intro_button">Enter WebPage!</button>
+        <p>We have a lot of random text that we would like to use!</p>
+        <p>Did you know you could click these words, and the ones above, to see new buttons?</p>
+        <div class="buttons_added">
+            <button type="button">We are toggling buttons!</button>
+        </div>
+        <h4>This is random text that is Sliding Down.</h4>
+        <p class="slidedown">In addition <br>to showing and hidding text, <br>we can also SLIDEDOWN text!!!!</p>
+        <p class="slideUp">Furthermore, we can also...<br>Slideup text!</p>
+        <h5 style="font-size: 16px; color:green;">This is random text that is for Sliding Up!</h5>
+        <h6 style="font-size: 16px; color:purple;">This is random text that is for SlideToggle!</h6>
+        <div class="fadeInButton">
+            <button type="button">I will make text fade in!</button>
+            <p>Wow! Even more neat happenings. This will FADE IN!</p>
+        </div>
+        <div class="fadeOutButton">
+            <button type="button">I will make text fade Out!!</button>
+            <p>No way!!! Even more neat STUFF. This will FADE OUT!</p>
+        </div>
+        <button id="addingClasses" type="button">This will REMOVE a BAD class to p tag elements...</button>
+        <p class="before">Before_______Before________Before_____CLICK ME FOR A TREAT<br>
+        Before_______Before________Before_____CLICK ME FOR A TREAT<br>
+        Before_______Before________Before_____CLICK ME FOR A TREAT<br></p>
+        <p class="after">After_______After________After_____CLICK ME FOR A TRICK!</p>
+        
+        <button type="button" class="append">Click me to append</button>
+        <button type="button" style="display: block;" id="master">Click me to reset P tags</button>
+        <button type="button" style="display: block;" class="atrr">Click me to get an atttribute of h5 style</button>
+
+        <button type="button" id="superValues" style="background: teal; color: orange;">Click me to print to console the value of Fadeout P tag.</button>
+        <input type="text" value="WOW, here is some text.">
+        <div id="SOMETEXT">sometext</div>
+
+    </body>
+</html>
