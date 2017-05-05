@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="Carlos_AccordionAndTabCSS_0504.css">
+        <script type="text/javascript" src="Carlos_AccordionAndTabJS_0504.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $("#master").accordion();
+            });
+            $( function() {
+                var availableTags = [
+                "ActionScript",
+                "AppleScript",
+                "Asp",
+                "BASIC",
+                "C",
+                "C++",
+                "Clojure",
+                "COBOL",
+                "ColdFusion",
+                "Erlang",
+                "Fortran",
+                "Groovy",
+                "Haskell",
+                "Java",
+                "JavaScript",
+                "Lisp",
+                "Perl",
+                "PHP",
+                "Python",
+                "Ruby",
+                "Scala",
+                "Scheme"
+                ];
+                $( "#tags" ).autocomplete({
+                source: availableTags
+                });
+            } );
+            $("#tags").on("click", this, function(){
+                $(this).val("Butts");
+            })
+            $(function(){
+                $("#child").tabs();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="master">
+            <h3>Super Important Tab</h3>
+            <div>
+                <p>
+                    This tab contains such super important stuff that you may not want to know about!
+                    Read at your own RISK!!! We assume and will not accept any liability due to anything.
+                </p>
+            </div>
+            <h3>Less Important than the Super Important Tab</h3>
+            <div>
+                <p>
+                    This tab contains general knowledge to employees. While it is general, we should not
+                    allow every person to know about our super secret stuff!
+                </p>
+            </div>
+            <h3>Not Important Information Tab</h3>
+            <div>
+                <p>
+                    Did you know penguins cannot fly? Can you begin to imagine if they could? Would that be 
+                    incredible? Or rather scary? With their tiny little wings, I imagine they would be 
+                    flaaping all day for small amounts of gains!
+                </p>
+            </div>
+            <h3></h3>
+            <div>
+                <p></p>
+            </div>
+            <h3></h3>
+            <div>
+                <p></p>
+            </div>
+
+        </div>
+        <div id="child">
+            <ul>
+                <li><a href="#child-1">This is the First Tab of the master, known as a child!</a></li>
+                <li><a href="#child-2">Second Tab of the master, known as a child!</a></li>
+                <li><a href="#child-3">Forgotten Tab of the master, known as an orphan.</a></li>
+            </ul>
+            <div id="child-1">
+                <p>
+                    This child was born first and gets the better treatment of all the children. 
+                    One should be able to say this Child is the most important because it was born first. 
+                    It doesn't matter if they misbehave or destroy everything. They will get an easy out.
+                </p>
+            </div>
+
+            <div id="child-2">
+                <p>
+                    Second child is often okay. Not bad off. They share similar but not the same 
+                    treatment as the first child. While they can destroy, there are often 
+                    ramifications for bad behavior for this child.
+                </p>
+            </div>
+
+            <div id="child-3">
+                <p>This was a mistake and now an orphan. Nobody talks about their origin.</p>
+            </div>
+        </div>
+        <div id="slave">
+            <input id="tags" value="Click me to see autocomplete!" size="29">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    margin: 10px auto;
+}
+
+#master{
+    width: 1100px;
+    height: 600px;
+    background: linear-gradient(blanchedalmond, burlywood);
+}
+    #baratheon, #lannister, #stark, #targaryen{
+        height: 240px;
+        width: 250px;
+        
+        display: inline-block;
+        margin: 10px;
+    }
+    img{
+        height: 175px;
+        width: 175px;
+        margin: 20px;
+    }
+    button{
+        margin: 10px;
+        background: linear-gradient(wheat, whitesmoke);
+    }
+
+    #house_deetz{
+        height: 400px;
+        width: 600px;
+        margin: 0px auto;
+    }
+        .house_deetz_deetz{
+            height: 350px;
+            width: 550px;
+            margin: 20px;
+        }
+        .house_deetz_deetz p,h3{
+            display: inline-block;
+            margin: 10px;
+        }
+        .title_names_div{
+            height: 200px;
+            width: 400px;
+            margin: -10px 0px 0px 20px;
+        }

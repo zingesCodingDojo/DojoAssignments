@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carlos attempts the Sortable Ninja assignment!</title>
+        <style>
+            #master{
+                width: 600px;
+                height: 450px;
+                background: plum;
+                margin: 5px auto;
+            }
+            #picture_holder{
+                width: 190px;
+                background: aliceblue;
+                margin: inherit;
+                padding: 1em;
+            }
+            img{
+                width: 100%;
+                margin: 0.1rem;
+            }
+
+        </style>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(function(){
+                    $( "#picture_holder" ).sortable();
+                    $( "#picture_holder" ).disableSelection();
+                });
+                    
+            });
+            </script>
+    </head>
+    <body>
+        <div id="master">
+            <h1 style="text-align: center;">We are going to be able and sort the Ninja!</h1>
+            <div id="picture_holder">
+                <img src="./sorting_images/sort1.png" alt="sort1.png">
+                <img src="./sorting_images/sort2.png" alt="sort2.png">
+                <img src="./sorting_images/sort3.png" alt="sort3.png">
+                <img src="./sorting_images/sort4.png" alt="sort4.png">
+                <img src="./sorting_images/sort5.png" alt="sort5.png">
+        </div>
+    </body>
+</html>

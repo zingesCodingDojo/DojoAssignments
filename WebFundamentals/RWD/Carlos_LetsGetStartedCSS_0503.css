@@ -1,0 +1,19 @@
+*{
+    margin: 0 auto;
+}
+#master{
+    height: 200px;
+    width: 200px;
+    background: black;
+}
+
+@media (max-width: 480px){
+    body{background: green;}
+}
+
+@media only screen and (min-width: 481px) {
+    body { background: red; }
+}
+@media only screen and (min-width: 1024px) {
+    body { background: yellow; }
+}

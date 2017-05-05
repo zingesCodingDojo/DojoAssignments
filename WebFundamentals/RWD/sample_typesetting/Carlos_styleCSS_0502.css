@@ -1,0 +1,19 @@
+#main {
+	background: #ddd;
+	border: 1px solid #999;
+	padding: 1.25em;
+    /*Changed Padding from 20px to 1.25em*/
+	margin: auto;
+	width: 90%;
+    /*Changed width from 980px to 90%*/
+}
+
+/*convert these font sizes to ems*/
+.large {
+	font-size: 3.200em;
+    /*Changed font-size from 64px to 3.200em*/
+}
+.medium {
+	font-size: 1.600em;
+    /*Changed font-size from 32px to 1.600em*/
+}

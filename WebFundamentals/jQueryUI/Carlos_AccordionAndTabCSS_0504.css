@@ -1,0 +1,18 @@
+*{
+    margin: 0.5rem auto;
+}
+
+#master{
+    width: 50%;
+}
+
+.ui-accordion-header{
+    font-size: 2.25em;
+}
+
+#slave{
+    width: 25%;
+    height: 200px;
+    background: linear-gradient(khaki, wheat);
+    padding: 0.35em;
+}

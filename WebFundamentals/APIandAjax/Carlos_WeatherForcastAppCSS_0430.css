@@ -1,0 +1,48 @@
+*{
+    margin: 0px auto;
+}
+
+#master{
+    height: 800px;
+    width: 1000px;
+    background: repeating-radial-gradient(oldlace, seashell, rosybrown);
+    border-radius: 10px;
+}
+    header{
+        width: 250px;
+        height: 100px;
+        float: left;
+        margin-left: 20px;
+    }
+    .search_bar{
+        width: 200px;
+        height: 100px;
+    }
+    .search_bar_button{
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+        background: repeating-linear-gradient(greenyellow, limegreen, mediumseagreen);
+        margin: 20px;
+        font-size: 15px;
+        color: darkslateblue;
+    }
+    input{
+        background:antiquewhite;
+        margin: 10px 0px 0px 15px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .weatherShower{
+        height: 130px;
+        width: 300px;
+        background: linear-gradient(bisque, beige);
+        display: inline-block;
+        border-radius: 30px;
+        margin: 10px;
+        border: solid black 1px;
+    }
+    .newCity, .newTemp, .newTrend {
+        margin: 10px;
+    }
