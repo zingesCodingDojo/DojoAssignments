@@ -22,12 +22,10 @@ The goal is to repeat a process several times. This should make you think of loo
 """
 
 
-def checkerboard():
-    columns = 15
-    rows = 15
-    evens = ""
-    odds = ""
-    newthing = ""
+def checkerboard(columns, rows):
+    columns = columns
+    rows = rows
+    evens, odds, newthing = "", "", ""
     for items in range(rows):
         if items % 2 == 0:
             evens += "+"
@@ -44,4 +42,4 @@ def checkerboard():
     # print(odds)
     print(newthing)
 
-checkerboard()
+checkerboard(15, 25)
